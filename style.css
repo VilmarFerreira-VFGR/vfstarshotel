@@ -107,3 +107,27 @@ h2 {
     font-size: 15px;
 }
 
+/*  Responsividade */
+
+@media (width < 600px) {
+    section {
+        flex-direction:column;
+    }
+
+    section img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        justify-content:space-around;
+    }
+
+    #reservas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
